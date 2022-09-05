@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-size: 16px;
+    margin:0;
+    display: flex; /*flex box on parent*/
+    align-items: center; /*center vertical*/
+}
+nav{
+    background: #f9f9f9;
+    width: 100%;
+}
+nav ul {
+    margin:0;
+    display: flex; /*flex box on parent*/
+    justify-content: space-around; /*acts on the horizontal*/
+    /* flex-direction: row;  --- you can change the direction of items, by default its horizontal*/
+}
+.nav-item{
+    padding: 3em;
+}
