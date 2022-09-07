@@ -1,0 +1,56 @@
+body,html {
+    height:100%;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.media{
+    display: flex;
+    width: 100%;
+}
+h4 {
+    margin: 0 0 5px;
+}
+
+.media-left{
+    margin-right:1em;
+}
+
+.box{
+    border:1px solid #cecece;
+    padding:20px;
+}
+
+.media-content{
+    background: red;
+    flex:1; /* by default it is zero...set it to 1 says, occupy all the available space */
+}
+
+.media-content textarea {
+    padding: 0;
+    width: 100%;
+    min-height: 80px;
+}
+
+.media-content-buttons {
+    text-align: right;
+}
+
+/* --- alternative method to align single items ---
+.form{
+    display:flex;
+    flex-direction: column; --- by default the flex-direction is row
+    align-items:flex-end; --- this aligns all items to the right so instead use "align-self"
+}
+
+.media-content-buttons {
+    align-self:flex-end;
+} 
+*/
